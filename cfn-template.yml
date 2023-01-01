@@ -24,7 +24,7 @@ Resources:
           systemctl start httpd.service
           systemctl enable httpd.service
           yum install git -y
-          git clone https://github.com/TheAksel/AWS-Projects.git
+          git clone https://github.com/Magnusdorf/Project-101.git
           sudo mv /AWS-Projects/index.html /var/www/html/
           sudo mv /AWS-Projects/cat0.jpg /var/www/html/
           sudo mv /AWS-Projects/cat1.jpg /var/www/html/
